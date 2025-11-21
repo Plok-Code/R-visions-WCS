@@ -30,6 +30,8 @@ Ce bot automatise le processus de révision des cours Wild Code School en :
 
 **Exemple concret** : Pour 4 cours planifiés (Python, Pandas, Matplotlib, Git), le système génère un test unique de 15-20 minutes contenant 2-3 questions par cours, intelligemment mélangées pour favoriser la compréhension transversale.
 
+Il s'agit d'un outil qui reprend une partie de mes recherches sur les meilleures techniques d'apprentissage et l'optimisation de la mémorisation disponibles ici : https://discord.com/channels/1417125378144735254/1417130278425460905/1441086282997432412 
+
 ---
 
 ## Prérequis
