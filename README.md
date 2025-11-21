@@ -139,15 +139,12 @@ WCS_PASSWORD=votre_mot_de_passe
 
 Le fichier `Revision_WCS.xlsx` à la racine du projet doit avoir la structure suivante :
 
-| cours | url_wcs | 2025-11-21 | 2025-11-22 |
+| cours | url_wcs | Date | Révision 1 (+1) |
 |-------|---------|-----------|-----------|
 | Python Basics | https://odyssey.wildcodeschool.com/courses/123 | X | |
 | Pandas Introduction | https://odyssey.wildcodeschool.com/courses/456 | X | X |
 
-- Colonnes de dates au format ISO (YYYY-MM-DD)
-- Marqueur (`X`, `✓`, `1`, etc.) pour indiquer les cours à réviser
-
-Si vous voulez effacer le contenu du tableau pour le remplir à votre maniere, alors : Pour les dates effacez SEULEMENT les date de la colonne date : ca va supprimer le reste sans toucher aux formules.
+Si vous voulez effacer le contenu du tableau pour le remplir à votre maniere, alors : Pour les dates effacez SEULEMENT les dates de la colonne date : ca va supprimer le reste sans toucher aux formules.
 
 ---
 
@@ -181,7 +178,7 @@ Traitement : Pandas Introduction
 Traitement : Matplotlib Introduction
 Traitement : Git Fundamentals
 2025-11-21 12:03:40 [INFO] Génération d'UN SEUL test combiné pour 4 cours
-🚀 Lancement de llama-3.3-70b-versatile sur Groq...
+Lancement de llama-3.3-70b-versatile sur Groq...
 2025-11-21 12:03:46 [INFO] Envoi du test combiné sur Discord
 2025-11-21 12:03:50 [INFO] Test combiné généré et envoyé avec succès !
 ```
@@ -366,7 +363,7 @@ Paramètres personnalisables :
 4. Action : Démarrer un programme
    - Programme : `python.exe`
    - Arguments : `main.py`
-   - Dossier de démarrage : Chemin absolu vers le projet
+   - Dossier de démarrage : Chemin absolu vers le projet (là ou est le main.py)
 
 **macOS/Linux (cron)** :
 ```bash
@@ -436,9 +433,9 @@ Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## Support
 
-- **Issues** : [Ouvrir un ticket](https://github.com/VOTRE_USERNAME/wcs-revision-bot/issues)
-- **Discussions** : [Forum du projet](https://github.com/VOTRE_USERNAME/wcs-revision-bot/discussions)
-- **Email** : support@example.com
+- **Issues** : [Ouvrir un ticket](https://github.com/Plok-Code/R-visions-WCS/issues)
+- **Discussions** : [Forum du projet](https://github.com/Plok-Code/R-visions-WCS/discussions)
+- **Email** : novarealmteam@gmail.com
 
 ---
 
