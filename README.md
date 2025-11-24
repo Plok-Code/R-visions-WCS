@@ -358,6 +358,8 @@ Paramètres personnalisables :
 
 ### Automatisation quotidienne
 
+Avant de planifier, copie `lanceur.example.bat` en `lanceur.bat` et adapte si besoin le chemin de Python ou du dossier du projet. Le fichier `lanceur.bat` est ignor? par git pour ne pas versionner des chemins locaux.
+
 **Windows (Planificateur de tâches)** :
 1. Ouvrir le Planificateur de tâches
 2. Créer une tâche de base
